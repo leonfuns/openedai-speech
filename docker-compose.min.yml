@@ -11,3 +11,8 @@ services:
       - ./config:/app/config
     # To install as a service
     #restart: unless-stopped
+    networks: 
+      - open-webui_open_webui_net
+networks: 
+  open-webui_open_webui_net:
+      external: true

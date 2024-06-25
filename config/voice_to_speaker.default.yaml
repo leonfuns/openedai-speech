@@ -1,7 +1,7 @@
 ﻿tts-1:
-  some_other_voice_name_you_want:
-    model: voices/choose your own model.onnx
-    speaker: set your own speaker
+  jenny:
+    model: voices/en_GB-jenny_dioco-medium.onnx
+    speaker: 1
   alloy:
     model: voices/en_US-libritts_r-medium.onnx
     speaker: 79 # 64, 79, 80, 101, 130
